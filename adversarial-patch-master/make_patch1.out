@@ -1,0 +1,7 @@
+stty: 标准输入: 对设备不适当的 ioctl 操作
+Traceback (most recent call last):
+  File "make_patch1.py", line 21, in <module>
+    from utils import *
+  File "/home/zgz/adversarial_samples/adversarial-patch-master2/adversarial-patch-master/utils.py", line 14, in <module>
+    _, term_width = os.popen('stty size', 'r').read().split()
+ValueError: not enough values to unpack (expected 2, got 0)

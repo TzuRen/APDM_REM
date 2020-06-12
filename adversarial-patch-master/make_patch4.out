@@ -1,0 +1,20 @@
+Namespace(conf_target=0.9, cuda=False, epochs=20, image_size=299, manualSeed=1338, max_count=1000, netClassifier='resnet18', outf='./resnet18_adv', patch_size=0.05, patch_type='square', plot_all=1, target=859, test_size=2000, train_size=2000, workers=2)
+Random Seed:  1338
+WARNING: You have a CUDA device, so you should probably run with --cuda
+=> creating model 
+==> Preparing data..
+/home/zgz/anaconda3/lib/python3.6/site-packages/torchvision-0.2.1-py3.6.egg/torchvision/transforms/transforms.py:188: UserWarning: The use of the transforms.Scale transform is deprecated, please use transforms.Resize instead.
+make_patch4.py:241: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  x_out = F.softmax(netClassifier(x))
+make_patch4.py:251: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  adv_out = F.log_softmax(netClassifier(adv_x))
+make_patch4.py:267: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  out = F.softmax(netClassifier(adv_x))
+Traceback (most recent call last):
+  File "make_patch4.py", line 291, in <module>
+    train(epoch,patch,patch_shape)
+  File "make_patch4.py", line 157, in train
+    adv_x, mask, patch,target2 = attack(data, patch, mask)
+  File "make_patch4.py", line 242, in attack
+    target_prob = x_out.data[0][target2]
+IndexError: index 1000 is out of bounds for dimension 0 with size 1000
