@@ -1,0 +1,7 @@
+classes=20
+train  = voc_train.txt
+valid1  = 2007_test.txt
+valid = /home/zgz/pytorch-yolo2-master/video_dispaly/img4.txt
+names = data/voc.names
+backup = my_models_repair_dark544_32
+gpus  = 0,1,2,3

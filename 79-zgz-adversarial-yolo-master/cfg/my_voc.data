@@ -1,0 +1,12 @@
+train  = /home/zgz/pytorch-yolo2-master/9.18_adv_img_test.txt
+9.16_NDSS_TrojanNN_test=/home/zgz/pytorch-yolo2-master/9.16_NDSS_TrojanNN_test.txt
+9.16_LaVAN_test1=/home/zgz/pytorch-yolo2-master/9.29_LaVAN_test1.txt
+9.16_LaVAN_test2=/home/zgz/pytorch-yolo2-master/9.16_LaVAN_test2.txt
+valid  = /home/zgz/adversarial_samples/Attack_Patch/my_adv_rep_test.txt
+names = data/my_voc.names
+voc_lab_path=/home/zgz/pytorch-yolo2-master/9.18_adv_img_test_lab/
+9.16_NDSS_TrojanNN_test_label=/home/zgz/pytorch-yolo2-master/9.16_NDSS_TrojanNN_test_label/
+9.16_LaVAN_test_label1=/home/zgz/pytorch-yolo2-master/9.29_LaVAN_test_label1/
+9.16_LaVAN_test2_label=/home/zgz/pytorch-yolo2-master/9.16_LaVAN_test_label2/
+backup = my_models
+gpus  = 0,1,2,3

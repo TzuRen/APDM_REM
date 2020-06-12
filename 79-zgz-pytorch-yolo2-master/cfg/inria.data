@@ -1,0 +1,7 @@
+classes=1
+train=/home/zgz/adversarial_samples/adversarial-yolo-master/inria/Train/imgpath.txt
+train=/home/zgz/adversarial_samples/adversarial-yolo-master/inria/Train/imgpath.txt
+train=/home/zgz/adversarial_samples/adversarial-yolo-master/inria/Train/imgpath.txt
+train=/home/zgz/adversarial_samples/adversarial-yolo-master/inria/Train/imgpath.txt
+test=/home/zgz/adversarial_samples/adversarial-yolo-master/inria/Test/imgpath.txt
+tr_labels=/home/zgz/adversarial_samples/adversarial-yolo-master/inria/Train/pos/yolo-labels

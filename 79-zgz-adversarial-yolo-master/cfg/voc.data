@@ -1,0 +1,50 @@
+classes= 20
+train  = /home/zgz/pytorch-yolo2-master/voc_train.txt
+ori_valid  = /home/zgz/pytorch-yolo2-master/2007_test.txt
+adv_valid  = /home/zgz/pytorch-yolo2-master/test_data_adv_repla.txt
+adv_obj1=/home/zgz/pytorch-yolo2-master/07voc_test_adv_obj1.txt
+adv_obj2=/home/zgz/pytorch-yolo2-master/07voc_test_adv_obj2.txt
+adv_obj3=/home/zgz/pytorch-yolo2-master/07voc_test_adv_obj3.txt
+adv_obj4=/home/zgz/pytorch-yolo2-master/07voc_test_adv_obj4.txt
+14_901_tinycoco=/home/zgz/pytorch-yolo2-master/14_901_tinycoco_adv_test.txt
+14_900_tinyvoc=/home/zgz/pytorch-yolo2-master/14_900_tinyvoc_adv_test.txt
+14_681_darkvoc=/home/zgz/pytorch-yolo2-master/14_681_darkvoc_adv_test.txt
+14_222_darkcoco=/home/zgz/pytorch-yolo2-master/14_222_darkcoco_adv_test.txt
+14_1433_darkcoco=/home/zgz/pytorch-yolo2-master/14_1433_darkcoco_adv_test.txt
+9_1998=/home/zgz/pytorch-yolo2-master/9_1998_adv_test.txt
+10_1953=/home/zgz/pytorch-yolo2-master/10_1953_adv_test.txt
+14_1551=/home/zgz/pytorch-yolo2-master/14_1551_adv_test.txt
+
+9.18_14_1500_adv_test=/home/zgz/pytorch-yolo2-master/9.18_14_1500_adv_test.txt
+9.18_14_1500_adv_test_rep=/home/zgz/pytorch-yolo2-master/9.18_14_1500_adv_test_rep.txt
+
+9.18_14_600_adv_test=/home/zgz/pytorch-yolo2-master/9.18_14_600_adv_test.txt        
+9.18_14_600_adv_test_rep=/home/zgz/pytorch-yolo2-master/9.18_14_600_adv_test_rep.txt
+
+9.18_19_1500_adv_test=/home/zgz/pytorch-yolo2-master/9.18_19_1500_adv_test.txt
+9.18_19_1500_adv_test_rep=/home/zgz/pytorch-yolo2-master/9.18_19_1500_adv_test_rep.txt
+  
+9.18_19_600_adv_test=/home/zgz/pytorch-yolo2-master/9.18_19_600_adv_test.txt
+9.18_19_600_adv_test_rep=/home/zgz/pytorch-yolo2-master/9.18_19_600_adv_test_rep.txt
+
+9.18_9_1500_adv_test=/home/zgz/pytorch-yolo2-master/9.18_9_1500_adv_test.txt
+9.18_9_1500_adv_test_rep=/home/zgz/pytorch-yolo2-master/9.18_9_1500_adv_test_rep.txt
+  
+9.18_9_600_adv_test=/home/zgz/pytorch-yolo2-master/9.18_9_600_adv_test.txt
+9.18_9_600_adv_test_rep=/home/zgz/pytorch-yolo2-master/9.18_9_600_adv_test_rep.txt
+
+9.18_3_1500_adv_test=/home/zgz/pytorch-yolo2-master/9.18_3_1500_adv_test.txt
+9.18_3_1500_adv_test_rep=/home/zgz/pytorch-yolo2-master/9.18_3_1500_adv_test_rep.txt
+  
+9.18_3_600_adv_test=/home/zgz/pytorch-yolo2-master/9.18_3_600_adv_test.txt
+9.18_3_600_adv_test_rep=/home/zgz/pytorch-yolo2-master/9.18_3_600_adv_test_rep.txt
+
+#entro=repla1
+#entro+grad=repla2
+9.18_14_1500_adv_test_gray_repla1=/home/zgz/pytorch-yolo2-master/9.18_14_1500_adv_test_gray_repla1.txt
+9.18_14_1500_adv_test_gray_repla2=/home/zgz/pytorch-yolo2-master/9.18_14_1500_adv_test_gray_repla2.txt
+
+10.14_oriimg_detec=/home/zgz/adversarial_samples/adversarial-yolo-master2/10.14_oriimg_detec.txt
+voc_lab_path = /home/zgz/pytorch-yolo2-master/VOCdevkit/VOC2007/labels/
+names = data/voc.names
+backup = backup

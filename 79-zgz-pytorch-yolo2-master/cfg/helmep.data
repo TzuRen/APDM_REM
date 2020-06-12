@@ -1,0 +1,6 @@
+classes=1
+train  = /home/zgz/pytorch-yolo2-master/pic1_gai/img_train.txt
+valid  = 2007_test.txt
+names = data/helmep.names
+backup = helmep_models
+gpus  = 0,1,2,3

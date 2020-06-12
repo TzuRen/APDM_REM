@@ -1,0 +1,12 @@
+#随机块替换
+#train1  = /home/zgz/adversarial_samples/Attack_Patch/my_adv_rep_path4.txt
+#valid1  = /home/zgz/adversarial_samples/Attack_Patch/my_adv_rep_test.txt
+#names1 = data/my_voc.names
+#backup1 = my_models_detect
+#真实对抗块替换
+#train  = /home/zgz/adversarial_samples/Attack_Patch/my_adv_rep_path4.txt
+train  = /home/zgz/pytorch-yolo2-master/9.18_adv_img_train.txt
+valid  = /home/zgz/adversarial_samples/Attack_Patch/my_adv_rep_test.txt
+names = data/my_voc2.names
+backup = 9.18_my_models_detect
+gpus  = 0,1,2,3
