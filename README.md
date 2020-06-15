@@ -50,3 +50,6 @@ requires python3 and Pytorch >=0.4
 
     function: def rand_repl(img,labpath) under file ：79-zgz-pytorch-yolo2-master/dataset.py  
     
+## 6. Evaluation
+
+    python 79-zgz-pytorch-yolo2-master/my_eval.py
