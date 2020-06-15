@@ -26,7 +26,7 @@ requires python3 and Pytorch >=0.4
 * Yolo v2 - based VOC or COCO datasets
 * Resnet 18, Inception V3, etc - based ImageNet dataset
 
-## Adversarial Patch Detection Training
+## 4. Adversarial Patch Detection Training
 
 ### 4.1 Adversarial Patches Generation
 
@@ -37,5 +37,9 @@ requires python3 and Pytorch >=0.4
     python 79-zgz-pytorch-yolo2-master/my_replace3.py
 
 ### 4.3 Patch Detection Training
+
+    python 79-zgz-pytorch-yolo2-master/train_detect.py
+    
+### 4.4 Adversarial Patch Detection or object detection or replaced images detection
 
     python 79-zgz-pytorch-yolo2-master/train_detect.py
