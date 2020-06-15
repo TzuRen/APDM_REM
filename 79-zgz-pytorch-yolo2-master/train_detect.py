@@ -1,6 +1,6 @@
 #encoding=utf-8
-#使用一批自己生成的含有对抗块(0-5个)的对抗图像,指定所有的对抗块的类标为stop sign，
-#在voc20类当中是没有这个类的，直接用这个类stop sign替换原voc的最后一个类标，
+#使用一批自己生成的含有对抗块(0-5个)的对抗图像,指定所有的对抗块的类标为adv，
+#在voc20类当中是没有这个类的，直接用这个类adv替换原voc的最后一个类标，
 #指定所有对抗块的label=19，及其坐标，进行训练yolo2，并保存最后训练权重
 from __future__ import print_function
 import sys
@@ -36,7 +36,7 @@ from models.tiny_yolo import TinyYoloNet
 #cfgfile       = sys.argv[2]
 #weightfile    = sys.argv[3]
 
-datacfg='cfg/my_voc.data'  #相应做了一系列修改，只设置stop sign 1个类 
+datacfg='cfg/my_voc.data'  #相应做了一系列修改，只设置ADV 1个类 
 cfgfile='cfg/tiny-yolo-voc.cfg'
 #weightfile='yolov2-tiny-voc.weights'
 weightfile='my_models_detect2/000051.weights'
