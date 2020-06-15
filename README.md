@@ -14,7 +14,7 @@ A simple yet effective defense mechanism that can defend against patch attacks b
 
 requires python3 and Pytorch >=0.4
 
-## 3. Train
+## 3. Prepare
 
 ### 3.1 Prepare data
 
@@ -26,6 +26,16 @@ requires python3 and Pytorch >=0.4
 * Yolo v2 - based VOC or COCO datasets
 * Resnet 18, Inception V3, etc - based ImageNet dataset
 
+## Adversarial Patch Detection Training
 
+### 4.1 Adversarial Patches Generation
 
+    python 79-zgz-adversarial-yolo-master/train_patch.py
 
+### 4.2 Adversarial examples Generation
+
+    python 79-zgz-pytorch-yolo2-master/my_replace3.py
+
+### 4.3 Patch Detection Training
+
+    python 79-zgz-pytorch-yolo2-master/train_detect.py
