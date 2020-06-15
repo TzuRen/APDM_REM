@@ -10,8 +10,22 @@ A simple yet effective defense mechanism that can defend against patch attacks b
 
 * REM is responsible for training more robust image classiﬁcation and object detection networks, and has a general defense against adversarial patches.
 
-## 3. Install dependencies
+## 2. Install dependencies
 
-requires python3 and Pytorch 1.0
+requires python3 and Pytorch >=0.4
+
+## 3. Train
+
+### 3.1 Prepare data
+
+* Object Detection: Pascal VOC 2007, Pasal VOC 2012, Inria,
+* Image Classification:  ImageNet
+
+### 3.1 Prepare pretrained models
+
+* Yolo v2 - based VOC or COCO datasets
+* Resnet 18, Inception V3, etc - based ImageNet dataset
+
+
 
 
