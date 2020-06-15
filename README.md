@@ -1,8 +1,8 @@
 # APDM_REM
 
-##A Implementation of Patch Detection and Random Erasing Defense Against Adversarial Patches
+*A Implementation of Patch Detection and Random Erasing Defense Against Adversarial Patches
 
-/textbf{1. Introduction}
+##1. Introduction
 
 A simple yet effective defense mechanism that can defend against patch attacks both on image classiﬁcation and object detection, from the perspective of adversarial image preprocessing and the robustness of the network. 
 
