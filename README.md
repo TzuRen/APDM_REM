@@ -43,3 +43,10 @@ requires python3 and Pytorch >=0.4
 ### 4.4 Adversarial Patch Detection or object detection or replaced images detection
 
     python 79-zgz-pytorch-yolo2-master/train_detect.py
+    
+## 5. REM
+
+### 5.1 Training
+
+    function: def rand_repl(img,labpath) under file ：79-zgz-pytorch-yolo2-master/dataset.py  
+    
